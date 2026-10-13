@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Maltimart Ecommerce
 
 ## 📌 Live Demo
@@ -34,20 +34,14 @@ $ cd multimart-react-ecommerce
 # Remove current origin repository
 $ git remote remove origin
 
-```
 
 Then you can install the dependencies using NPM:
 
-```
 # Install dependencies
 $ npm install
 
 # Start development server
 $ npm start
-```
+
 👨‍💻 Happy coding!
 ---
-=======
-# AapkaMart
-AapkaMart is a React-based e-commerce website where users can explore products, view prices in Indian Rupees (INR), add items to their cart, manage quantities, and view the total price. Built using React.js, React-Bootstrap, and Redux Toolkit.
->>>>>>> 0cccf9dd69078a0874c49cc11fb9590455129f4e
