@@ -1,47 +1,42 @@
+# AapkaMart - React E-Commerce Website
 
-# Maltimart Ecommerce
+AapkaMart is a responsive e-commerce website built using React.js.
 
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
+## Features
+- Responsive user interface
+- Product listing and product cards
+- Shopping cart functionality
+- Product quantity management
+- Price calculation in Indian Rupees (INR)
+- Mobile-friendly design
 
-## 😎 Features
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
 
-- Beauty UI similar to ecommerce website
-- Fully responsive and mobile friendly
-- User can add items to cart
-- User can view details of an item
-- User can show total price in cart
-- In Item page user can add quantity of item to cart instead of click add more and more 
+## How to Run the Project
 
-## 🚀 What technologies were used?
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
+3. Open the terminal and run:
 
-- react.js (create-react-app)
-- react-dom-router
-- react-bootstrap
-- state management using Redux Toolkit
-
-## How can you clone and tweak this project?
-
-From your command line, first clone this repo:
-
+```bash
+npm install
 ```
-# Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
 
-# Go into the repository
-$ cd multimart-react-ecommerce
+4. Start the project:
 
-# Remove current origin repository
-$ git remote remove origin
+```bash
+npm start
+```
 
+If the project uses Vite, run `npm run dev` instead.
 
-Then you can install the dependencies using NPM:
+## Author
+Dileep Kumar
 
-# Install dependencies
-$ npm install
-
-# Start development server
-$ npm start
-
-👨‍💻 Happy coding!
----
+## Purpose
+This project was created to practice frontend development using React.js.
