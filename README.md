@@ -1,53 +1,42 @@
-<<<<<<< HEAD
-# Maltimart Ecommerce
+# AapkaMart - React E-Commerce Website
 
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
+AapkaMart is a responsive e-commerce website built using React.js.
 
-## 😎 Features
+## Features
+- Responsive user interface
+- Product listing and product cards
+- Shopping cart functionality
+- Product quantity management
+- Price calculation in Indian Rupees (INR)
+- Mobile-friendly design
 
-- Beauty UI similar to ecommerce website
-- Fully responsive and mobile friendly
-- User can add items to cart
-- User can view details of an item
-- User can show total price in cart
-- In Item page user can add quantity of item to cart instead of click add more and more 
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
 
-## 🚀 What technologies were used?
+## How to Run the Project
 
-- react.js (create-react-app)
-- react-dom-router
-- react-bootstrap
-- state management using Redux Toolkit
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
+3. Open the terminal and run:
 
-## How can you clone and tweak this project?
-
-From your command line, first clone this repo:
-
-```
-# Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
-
-# Go into the repository
-$ cd multimart-react-ecommerce
-
-# Remove current origin repository
-$ git remote remove origin
-
+```bash
+npm install
 ```
 
-Then you can install the dependencies using NPM:
+4. Start the project:
 
+```bash
+npm start
 ```
-# Install dependencies
-$ npm install
 
-# Start development server
-$ npm start
-```
-👨‍💻 Happy coding!
----
-=======
-# AapkaMart
-AapkaMart is a React-based e-commerce website where users can explore products, view prices in Indian Rupees (INR), add items to their cart, manage quantities, and view the total price. Built using React.js, React-Bootstrap, and Redux Toolkit.
->>>>>>> 0cccf9dd69078a0874c49cc11fb9590455129f4e
+If the project uses Vite, run `npm run dev` instead.
+
+## Author
+Dileep Kumar
+
+## Purpose
+This project was created to practice frontend development using React.js.
