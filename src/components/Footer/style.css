@@ -1,0 +1,177 @@
+
+/* ===== AapkaMart Professional Footer ===== */
+
+.main-footer {
+  background: #10243e;
+  color: #d5deea;
+  padding: 55px 0 0;
+  margin-top: 40px;
+}
+
+.main-footer .footer-row {
+  row-gap: 35px;
+}
+
+.main-footer .box {
+  margin-bottom: 15px;
+}
+
+.main-footer .company-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.main-footer .brand-icon {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  padding: 5px;
+  background: #245b94;
+  border-radius: 13px;
+}
+
+.main-footer .brand-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.main-footer .company-brand h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.main-footer .brand-subtitle {
+  display: block;
+  color: #8edcff;
+  font-size: 9px;
+  letter-spacing: 0.7px;
+}
+
+.main-footer .footer-description {
+  color: #bdc9d9;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.main-footer .box h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0 22px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.main-footer .box h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 38px;
+  height: 3px;
+  border-radius: 5px;
+  background: #56c8ff;
+}
+
+.main-footer .box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer .box ul li {
+  color: #bdc9d9;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+  transition: color 0.2s ease;
+}
+
+.main-footer .box ul li:hover {
+  color: #56c8ff;
+}
+
+.main-footer .footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.main-footer .footer-icon {
+  color: #56c8ff;
+  font-size: 21px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.main-footer .footer-contact-item p {
+  color: #bdc9d9;
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.main-footer .footer-contact-item h3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.main-footer .footer-contact-item a {
+  color: #bdc9d9;
+  font-size: 13px;
+  line-height: 1.8;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.main-footer .footer-contact-item a:hover {
+  color: #56c8ff;
+}
+
+.main-footer .footer-bottom {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.main-footer .footer-bottom p {
+  margin: 0;
+  color: #9eafc4;
+  font-size: 12px;
+}
+
+/* ===== Mobile Responsive ===== */
+
+@media (max-width: 767px) {
+  .main-footer {
+    padding-top: 35px;
+  }
+
+  .main-footer .box {
+    margin-bottom: 10px;
+  }
+
+  .main-footer .company-brand h1 {
+    font-size: 22px;
+  }
+
+  .main-footer .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
